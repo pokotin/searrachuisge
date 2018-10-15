@@ -1,0 +1,247 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+div#arriba{
+width:100%;
+height:170px;
+background-color:#AAEEDD;
+border-bottom-style: solid;
+border-bottom-width: 6px;
+}
+
+#arriba img{
+width:100%; 
+height:100%;
+margin:auto;
+display:block;
+
+}
+	
+div#general{
+margin:auto;
+width:76%;
+height:1260px;
+background-color:#F2EB25;
+background-image: url("pergamino.png");
+  }
+
+  
+div#menu{
+	margin:auto;
+	width:100%;
+	height:40px;
+	background-color:#AABBCC;
+}
+
+div#derecha{
+float:right;
+width:12%;
+height:1260px;
+background-color:#000000;
+}
+
+#derecha img{
+width:100%; 
+height:100%;
+margin:auto;
+display:block;
+}
+
+#izquierda{
+float:left;
+width:12%;
+height:1260px;
+background-color:#000000;
+	
+}
+
+#izquierda img{
+width:100%; 
+height:100%;
+margin:auto;
+display:block;
+}
+
+  
+#central{
+margin:auto;
+width:76%;
+height:960px;
+background-color:#F2EB25;
+  }
+  
+/*boton flotante*/
+/*html :  				<a class='flotante' href='#' ><img src='boton.png'/></a> */
+  
+#flotante {
+bottom:10px;
+right:10px;
+position: fixed;
+}
+
+#links{
+top:180px;
+right:40px;
+position:absolute;
+}
+
+
+h2 {
+padding-top: 30px;
+padding-bottom: 60px;
+margin: auto;
+margin-left: 30%;
+font-family: sans-serif;
+font-size: 200%;
+font-style: oblique; 
+}
+
+h1{
+padding-top: 5%;
+padding-bottom: 5%;
+margin-left: 16%;
+font-family: "helvetica";		
+	
+}
+
+.noticias{
+padding-top: 5%;
+padding-bottom: 5%;
+margin-left: 28%;
+font-family: "Courier";	
+color: #108;
+}
+
+/*TABLA CAMPEONES */
+
+table {     
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;
+margin: auto;     
+width: 880px; 
+text-align: center;    
+border-collapse: collapse; 
+}
+
+th {     
+font-size: 13px;     
+font-weight: normal;     
+padding: 8px;     
+background: #b9c9fe;
+border-top: 4px solid #aabcfe;    
+border-bottom: 1px solid #fff; 
+color: #039;
+width: 100%;
+ }
+
+td {    
+padding: 8px;     
+background: #e8edff;     
+border-bottom: 1px solid #fff;
+color: #669;    
+border-top: 1px solid transparent; }
+
+tr:hover td { 
+background: #F9E878; 
+color: #339; 
+}
+
+
+.news {
+font-size: 16px;
+padding: 9px;
+background: #edd664;
+border-top: 4px solid #b29e36;
+color: #229;	
+}
+
+.maps {
+font-size: 17px;
+padding: 3px;
+background: #A69BAF;
+border-top: 4px solid #6D577C;
+border-bottom:1px solid #7F578F;
+border-left: 3px solid #6D578F;
+border-right: 3px solid #6D578F;
+color: #289;	
+}
+
+.index {
+font-size: 14px;
+padding: 8px;
+background: #000000;
+border-top: 3px solid #000000;
+color: #ffffff;
+}
+
+
+/*Fin de tablas*/
+
+
+iframe{
+ margin-top: 6%;
+ margin-left: 4%;
+ float: left;
+
+}
+
+.champ{
+  margin-top: 6%;
+  margin-left: 54%;
+  margin-right: 4%;
+  float:none;
+  text-align: left;
+  font-family: times, serif;
+  font-size: 14pt;
+  font-style: italic;
+}
+  
+
+div#campeones{
+width: 990px;
+height: 1160px;
+margin: auto;
+margin-right: 100px;
+}
+
+
+.bio{
+padding-top:55px;;
+margin-left: 4%;
+margin-right: 2%;
+font-size: 15px;
+font-family: "Courier";
+
+}
+
+#aspecto img{
+margin-top: 8px;
+margin-left: 5%;
+margin-left:2%;
+}
+
+
+ /* MENUS */
+ 
+ ul {
+list-style-type: none;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+padding-left: 140px;
+}
