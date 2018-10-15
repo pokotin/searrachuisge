@@ -1,0 +1,27 @@
+html {background:#53533a;}
+body {margin:0; font-size:14px; line-height:20px; font-family:Arial, Helvetica, sans-serif; background:url(images/body_bckg.jpg) repeat-y center;}
+.white {color:black;}
+a {color:black; text-decoration:none;}
+a:hover {color:white;}
+
+#all {background:url(images/container_bckg.jpg) no-repeat top center;}
+#container {width:1000px; margin:0 auto; background:url(images/container_bckg.jpg) repeat top center;}
+
+#logo {height:100px; margin:0 60px; padding:120px 0 0 150px; background:url(images/logo.gif) no-repeat 32px 70px;}
+#logo a {text-decoration:none; font-size:30px; color:black; font-family:"Times New Roman", Times, serif; text-transform:capitalize;}
+#menu {height:40px; margin:0 60px;}
+#menu ul {margin:0; padding:0;}
+#menu ul li {display:inline-block; float:left; list-style:none; text-align:center; color:white;}
+#menu a {padding:0 20px; font-family:"Times New Roman", Times, serif; font-size:20px; text-transform:uppercase; text-decoration:none; color:black;}
+#menu a:hover {color:white;}
+
+#main {background:url(images/main_bottom.jpg) bottom center repeat; float:left; margin:0 60px; display:inline;}
+#text {margin:0 270px 0 20px;}
+#text ul {padding:0; margin:10px 0 10px 40px;}
+#text p {margin:10px 0;}
+#sidebar {float:right; width:180px; padding:0 40px 0 20px;}
+h1, h2 {font-family:"Times New Roman", Times, serif; margin:20px 0 0 0; font-size:1.8em;}
+
+#footer {height:130px; clear:both; background:url(images/footer_bckg.jpg) no-repeat center #53533B; font-family:"Times New Roman", Times, serif; color:black; font-size:10px; text-transform:uppercase; padding:0 60px;}
+#left_footer {float:left; padding:30px 0 0 20px;}
+#right_footer {float:right; padding:30px 20px 0 0;}
